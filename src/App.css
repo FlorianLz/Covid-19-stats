@@ -44,12 +44,12 @@ body{
     flex-wrap: wrap;
     font-size:1.2rem;
 }
-.contenu > table:nth-child(4) > tr > td:nth-child(2)::before{
+.contenu > table:nth-child(4) > tbody > tr > td:nth-child(2)::before{
     content:"\002620";
     color:white;
     padding-right:5px;
 }
-.contenu > table > tr > td{
+.contenu > table:nth-child(4) > tbody > tr > td,.contenu > table:nth-child(6) > tbody > tr > td{
     margin-left:auto;
     color:white;
     font-size:1.4em;
