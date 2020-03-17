@@ -164,8 +164,8 @@ function App() {
 
 
   useEffect(() => {
-    getLatestDeaths(158);
-    getLatestConfirmed(158);
+    getLatestDeaths(157);
+    getLatestConfirmed(157);
   },[]);
 
   function actualiser(e) {
