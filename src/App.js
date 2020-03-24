@@ -63,7 +63,7 @@ function App() {
 
     if(first===true){
       for(let i=0;i<data.locations.length;i++){
-        if(data.locations[i].country === 'France' && data.locations[i].province === 'France'){
+        if(data.locations[i].country === 'France' && data.locations[i].province === ''){
           setIdFrance(i);
           setDataFrance(data.locations[i]);
           setDataFranceDeaths(data.locations[i]);
@@ -115,7 +115,7 @@ function App() {
 
     if(first===true){
       for(let i=0;i<data.locations.length;i++){
-        if(data.locations[i].country === 'France' && data.locations[i].province === 'France') {
+        if(data.locations[i].country === 'France' && data.locations[i].province === '') {
           setIdFrance(i);
           setDataFranceConfirmed(data.locations[i]);
           let object = data.locations[i].history;
